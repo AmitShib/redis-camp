@@ -1,0 +1,41 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  .map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* Set a max width if needed */
+    margin-bottom: 30px; /* Space between map and inputs */
+  }
+  
+  .map-frame {
+    border: 2px solid black;
+    height: 500px; /* Fixed height for the map */
+  }
+  
+  .input-container {
+    width: 100%;
+    max-width: 1000px; /* Match the map width */
+    padding: 20px;
+    background: #f9f9f9;
+    box-sizing: border-box;
+  }
+  
+  .input-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-container input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
